@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 export default function Form() {
   let reset;
-  let url = "https://instaclone-backend-2ftm.onrender.com/user/api/v1/posts";
+  let url = "https://instaclone-backend-rndh.onrender.com/user/api/v1/posts";
   const [data, setData] = useState({
     Author: "",
     Location: "",
